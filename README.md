@@ -2,19 +2,22 @@
 
 This is a virtual painter application using OpenCV, MediaPipe, and NumPy. It allows you to draw on the screen using hand gestures detected by your webcam.
 
+## Features
+
+- Draw on the screen using your index finger
+- Select colors with gestures
+- Clear canvas with a gesture
+- Real-time webcam input
+
 ## Requirements
 
-Install the required Python packages:
-
-```
+```bash
 pip install opencv-python mediapipe numpy
 ```
 
 ## Usage
 
-Run the painter script:
-
-```
+```bash
 python painter.py
 ```
 
@@ -24,3 +27,7 @@ python painter.py
 - Use the index finger to draw on the canvas.
 - Show all five fingers to clear the canvas.
 - Press `Esc` to exit.
+
+## License
+
+[MIT](LICENSE)
